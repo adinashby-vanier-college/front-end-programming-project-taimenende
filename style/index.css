@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Vibur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+@keyframes jump {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-40px);
+    }
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+header {
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header .d-flex {
+    display: flex;
+}
+
+header img {
+    width: 40px;
+    height: 40px;
+}
+
+header h2 a {
+    color: black;
+    font-size: 20pt;
+    font-family: 'Barriecito', sans-serif;
+}
+
+header h2 a:hover {
+    color: purple;
+}
+
+/* NAV */
+nav .nav {
+    display: flex;
+    gap: 17px;
+}
+
+nav .nav-item .nav-link {
+    text-decoration: none;
+    color: rgb(80, 78, 78);
+    font-size: 14pt;
+    font-family: Yusei Magic;
+}
+
+nav .nav-item .nav-link:hover {
+    text-decoration: underline 1px red;
+    font-weight: bold;
+}
+
+/* MAIN */
+main {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px 0;
+}
+
+#banner {
+    width: 30%;
+    margin: 40px auto;
+    height: 350px;
+    background-image: url(images\snowman.png);
+    background-size: cover;
+    background-position: center;
+    animation: jump 1s infinite alternate;
+    -webkit-animation: jump 1s infinite alternate;
+}
+
+/* FOOTER */
+footer {
+    height: 60px;
+    background-color: blanchedalmond;
+    background-image: url();
+    background-size: contain;
+    font-family: Yusei Magic;
+}
