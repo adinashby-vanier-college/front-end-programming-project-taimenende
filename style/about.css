@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Vibur&family=Yusei+Magic&display=swap');
+
+
+body {
+    background-color: #1c1b1b;
+    color: white;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+header .nav-link.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+.title {
+    font-size: 60px;
+    color: #03DAC6;
+    font-family: 'Barriecito', cursive;
+    animation: fadeIn 2s ease-in-out;
+}
+
+
+.description {
+    font-size: 18px;
+    margin: 20px 0;
+    color: #B3B3B3;
+}
+
+
