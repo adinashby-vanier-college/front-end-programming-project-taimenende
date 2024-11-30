@@ -2,16 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
 
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body{
+body {
     background-color: #1c1b1b;
-    }
+    color: white;
 
+}
 
 /* HEADER */
 header {
@@ -49,6 +44,7 @@ header h2 a {
 
 header h2 a:hover {
     color: #FFDB58;
+;
 }
 
 /* NAV */
@@ -78,48 +74,54 @@ main {
     font-family: 'Poppins', sans-serif;
 }
 
-.contact-container{
-    width: auto;
-    max-width: 1200px;
-    text-align: left;
+#content{
     margin-top: 80px;
 }
 
-h1 {
+#content, #services-menu {
+    width: auto;
+    max-width: 1200px;
+    text-align: left;
+}
+
+#content h1{
     font-size: 72px;
     color: #FFDB58;
 }
 
-.text-contact{
-    font-size: 22px;
-    color: #efebeb;
-}
 
-form {
-    background-color: rgb(209, 207, 207); 
-    padding: 20px;
-    border-radius: 8px;
+.description-text {
+    font-size: 21px;
+    margin: 20px;
+    color: #F5F5F5;
 }
 
 
-input, textarea {
-    background-color: white;
-    border: 1px solid #d7d1d1;
-    color: #333;
+
+.card {
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
-.btn {
-    background-color:#212529;
-    border-color: #FFDB58;
-    color: white;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+.card-header {
+    background: linear-gradient(to right, transparent, #5f5e32  , transparent);
+    border: none;
+    padding: 10px;
 }
 
-.btn:hover{
-    background-color: #FFDB58;
-    color: #000;
-    transform: translateY(-5px);
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+.card-title button {
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.card-title button:hover {
+    color: #1c1b1b;
+}
+
+.list-group-item i {
+    margin-right: 10px;
+    color: #FFDB58;
 }
 
 footer{
