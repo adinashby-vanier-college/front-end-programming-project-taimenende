@@ -188,6 +188,9 @@ main {
 .tech-skills h2 {
     margin-bottom: 20px;
     font-size: 28px;
+    font-family: 'Major Mono Display';
+    font-weight: bolder;
+
 }
 
 .light-mode .tech-skills h2{
@@ -219,12 +222,13 @@ main {
 .tech-icon p {
     margin: 0;
     font-size: 14px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #ffffff;
 }
 
 .light-mode .tech-icon p {
     color:#13131F;
+    font-family: 'Poppins', sans-serif;
 }
 
 .tech-icon:hover {
